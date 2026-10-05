@@ -14,7 +14,7 @@ Sistem bağımlılıklarının çakışmaması için projenin izole bir Python s
 
 1. **Depoyu Klonlayın:**
    ```bash
-   git clone [https://github.com/seriftales/ColorBound.git](https://github.com/seriftales/ChromaTrack.git)
+   git clone [https://github.com/seriftales/ColorBound.git](https://github.com/seriftales/ColorBound.git)
    cd ColorBound
    
    ```
