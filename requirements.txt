@@ -1,0 +1,4 @@
+loguru==0.7.3
+numpy==2.5.3
+opencv-python==5.0.0.93
+toml==0.10.2
