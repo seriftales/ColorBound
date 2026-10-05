@@ -1,0 +1,22 @@
+# Python Çalışma Zamanı Önbellekleri
+__pycache__/
+*.pyc
+
+# Sanal Ortamlar
+venv/
+env/
+
+# Derleme ve Kütüphane Çıktıları
+lib/
+bin/
+build/
+dist/
+
+# Uygulama Logları
+logs/
+*.log
+
+# Geliştirme Ortamı ve İşletim Sistemi Kalıntıları
+.idea/
+.vscode/
+.DS_Store

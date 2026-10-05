@@ -1,0 +1,6 @@
+2026-10-05 23:43:01.937 | INFO     | __main__:main:20 - Uygulama başlatılıyor...
+2026-10-05 23:43:01.937 | INFO     | app.config:loadConfig:19 - Config başarıyla yüklendi
+2026-10-05 23:43:02.102 | INFO     | app.streamer:__init__:13 - Kamera başarıyla başlatıldı
+2026-10-05 23:43:02.102 | INFO     | __main__:main:30 - Görüntü işleme döngüsü başlıyor
+2026-10-05 23:43:10.359 | INFO     | __main__:main:42 - Sistem kapatılıyor
+2026-10-05 23:43:10.531 | INFO     | app.streamer:release:28 - Kamera bağlantısı kesildi
