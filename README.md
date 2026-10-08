@@ -2,13 +2,13 @@
 
 ColorBound, OpenCV kullanarak gerçek zamanlı görüntü işleme ve renk tespiti yapan bir Computer Vision projesidir. Sistem, kameradan aldığı görüntü akışını HSV renk uzayına çevirir, TOML yapılandırma dosyasında belirlenen dinamik aralıklara göre  maskeleme yapar ve tespit edilen nesneleri Bounding Box içerisine alarak etiketler.
 
-## 🚀 Özellikler
+##  Özellikler
 * **Gerçek Zamanlı Tespit:** Web kamerasından alınan görüntüler üzerinde anlık renk filtreleme.
 * **Dinamik Yapılandırma:** Renklerin alt ve üst HSV sınır değerleri koda gömülmek yerine `config.toml` dosyasından okunur.
 * **Gürültü Filtreleme:** Yanlış pozitifleri  engellemek için morfolojik işlemler ve minimum piksel alanı eşiği.
 * **Merkezi Loglama:** Hata ayıklama ve sistem takibi için `loguru` tabanlı dinamik loglama mekanizması.
 
-## 🛠️ Kurulum (Ubuntu / Linux)
+##  Kurulum (Ubuntu / Linux)
 
 Sistem bağımlılıklarının çakışmaması için projenin izole bir Python sanal ortamında (venv) çalıştırılması önerilir.
 
@@ -30,7 +30,7 @@ Sistem bağımlılıklarının çakışmaması için projenin izole bir Python s
     pip install -r requirements.txt
     ```
 
-## ⚙️ Çalıştırma 
+##  Çalıştırma 
 
 Görüntü işleme motorunu ve kamera akışını başlatmak için ana orkestratör dosyasını çalıştırın:
 
@@ -38,7 +38,7 @@ Görüntü işleme motorunu ve kamera akışını başlatmak için ana orkestrat
 python3 app.py
 ```
 
-## 📁 Dizin Yapısı
+##  Dizin Yapısı
 
 ```text 
 ColorBound/
